@@ -124,8 +124,12 @@
   "devDependencies": {
     "@babel/core": "^8.0.1",
     "@babel/preset-env": "^8.0.2",
+    "@babel/preset-typescript": "^8.0.1",
+    "@mojaloop/api-snippets": "^18.4.0",
     "@mojaloop/ml-testing-toolkit-shared-lib": "14.3.3",
+    "@redocly/openapi-cli": "^0.12.16",
     "@types/jest": "30.0.0",
+    "@types/node": "^26.0.1",
     "audit-ci": "^7.1.0",
     "babel-jest": "^30.4.1",
     "get-port": "5.1.1",
@@ -139,8 +143,6 @@
     "sinon": "22.0.0",
     "standard": "17.1.2",
     "standard-version": "^9.5.0",
-    "@babel/preset-typescript": "^8.0.1",
-    "@types/node": "^26.0.1",
     "typescript": "^6.0.3"
   },
   "nyc": {
